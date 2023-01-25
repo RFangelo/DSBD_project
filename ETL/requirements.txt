@@ -1,0 +1,7 @@
+statsmodels
+numpy
+scikit-learn
+prometheus_api_client
+datetime
+pyyaml
+confluent_kafka

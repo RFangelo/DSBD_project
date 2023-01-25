@@ -1,0 +1,29 @@
+metrics:
+  - metricName: 'diskUsage'
+    labels :
+        'instance' : '105'
+        'job' : 'summary'
+  - metricName : 'CpuUsage'
+    labels : 
+        'nodeId' : '111'
+  - metricName : 'node_filefd_allocated'
+    labels :
+        'job' : 'host'
+  - metricName : 'node_filesystem_free_bytes'
+    labels :
+        'device' : '/dev/sda2'
+  - metricName : 'node_memory_MemFree_bytes'
+    labels :
+        'job' : 'host'
+  - metricName : 'node_procs_running'
+    labels :
+        'job' : 'host'
+  - metricName : 'node_sockstat_TCP_alloc'
+    labels :
+        'job' : 'host'
+  - metricName : 'node_load5'
+    labels :
+        'job' : 'host'
+  - metricName : 'node_memory_Cached_bytes'
+    labels :
+        'job' : 'host'

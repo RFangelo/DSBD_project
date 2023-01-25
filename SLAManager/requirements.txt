@@ -1,0 +1,6 @@
+pymongo
+flask-restful
+flask
+pyyaml
+prometheus_api_client
+datetime
